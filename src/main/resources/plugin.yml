@@ -1,0 +1,17 @@
+name: Todolist
+version: '${project.version}'
+main: de.jrninj.todolist.Todolist
+api-version: 1.17
+authors: [ JRNinj ]
+description: Dieses Plugin erzeugt eine Ingame ToDo-List
+
+commands:
+  todo:
+    description: Mit diesem Befehl kannst du auf To-Do Listen oeffnen und bearbeiten!
+    permission: todolist.command.todo
+
+permissions:
+  todolist.command.todo:
+    description: Zugriff auf den Befehl /todo
+  todolist.command.todo.show:
+    description: Zugriff auf den Befehl /todo show <Spieler>
